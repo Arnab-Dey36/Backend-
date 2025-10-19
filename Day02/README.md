@@ -17,7 +17,7 @@ agar ek folder ke andar multiple opearation (function)execute ho raha hai aur us
 // const Sub = require("./Current/Sub");
 // const Mul = require("./Current/Mul");
 
-usi file ke andar(jis file ke andar operation define kiya hai) aur ek file banake ussme sare operation(function)ko 'require' keyword ki help se import karke:-aisa karke(current folder ke andar index.js file ke andar):
+usi folder ke andar(jis folder ke andar operation define kiya hai) aur ek file banake ussme sare operation(function)ko 'require' keyword ki help se import karke:-aisa karke(current folder ke andar index.js file ke andar):
 //const Sum = require("./Sum")
 //const Sub = require("./Sub")
 //const Mul = require("./Mul")
@@ -33,7 +33,7 @@ iea pe hum dekh raha hai ki folder ka name(Current) likhne sei wo sare file ko i
 Single Core Processor:- iska simple sa matlab hai Ekbar mein ek hi process(task) execute hoga.But We see that Single processor multiple processes ko ek saath (concurrently) run karata hai, matlab user single processor ke andar youtube chala raha hai, Game khel raha hai , insta bhi chala raha,balki single processor ke andar ek hi process execute hota hai,But iea pe iea sab ho raha hai Context Switching ki Help se..
 
 
-Context Switching:- iska matlab hota hai jab ek CPU ek process (ya thread) se dusre process me switch karta hai, to wo phele wala process ka state (context) save karta hai aur naye process ka state load karta hai.Jab dubara phele wala process mein ata hai tab wo ja save kiya tha uha se start hota hai.Isse lagta hai jaise ek single processor ek hi time me multiple work (process) kar raha hai...
+Context Switching:- iska matlab hota hai jab ek CPU ek process (ya thread) se dusre process me switch karta hai, to wo phele wala process ka state (context) save karta hai aur naye process ka state load karta hai.Jab dubara phele wala process mein ata hai tab wo jaha save kiya tha uha se start hota hai.Isse lagta hai jaise ek single processor ek hi time me multiple work (process) kar raha hai...
 
 
 
@@ -58,7 +58,7 @@ Teesra thread song list load kar raha hai 🎶
 
 
 
-Multi Threaded ki Jarurat Kyun padi?-->Multi-threading me ek process ke andar multiple threads parallel chal sakte hain. Ek process ke andar bhi multiple task execute ho saakta hai jaise ki i) File download kar raha hai ii)File display kar raha hai iii)User input le raha hai, multiple thread hone se ek ek task ek thread ko chala jata hai aise karke-
+Multi Threaded ki Jarurat Kyun padi?-->Multi-threading me ek process ke andar multiple threads parallel chal sakte hain. Ek process ke andar bhi multiple task execute ho saakta hai jaise ki i) File download kar raha hai ii)File display kar raha hai iii)User input le raha hai, multiple thread hone se ek ek task ek ek thread ko chala jata hai aise karke-
                 Thread 1 → File download kar raha hai
                 Thread 2 → File display kar raha hai
                 Thread 3 → User input le raha hai
