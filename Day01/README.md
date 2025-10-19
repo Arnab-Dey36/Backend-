@@ -52,3 +52,10 @@ Notes and tips
 License
 
 These examples are for learning and may be freely used.
+
+
+
+<----------------------------------------------------------------------->
+
+Node.js kya hai--> runtime environment hai jo javascript code ko run     kara deta hai, V8 Engine ki help se.
+
